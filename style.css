@@ -1,0 +1,81 @@
+body{
+background-image: url(pics/i4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+}
+.header .multi{
+    width: 100%;
+    height: 5px;
+}
+.header .top_nav{
+    width: 100%;
+    height: 75px;
+    background: black;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.header .top_nav .left{
+    display: flex;
+    align-items: center;
+}
+.herder .top_nav .left .mainimage{
+    display: flex;
+    align-items: center;
+}
+.header .top_nav .left .heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-size: 18px;
+    color:#a86300;
+    align-items: center;
+    font-weight: bold;
+}
+.header .top_nav .right ul{
+    display: flex;
+}
+.header .top_nav .right ul li{
+    margin: 0 12px;
+}
+.header .top_nav .right ul li a{
+       display: block;
+       padding: 8px 10px;
+       color: #a86300;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 16px;
+}
+.header .bottom{
+    width: 100%;
+    background: black;
+    height: 55px;
+    padding: 0 50px;
+}
+.header .bottom ul{
+    width: 100%;
+    height:45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .bottom ul li a{
+       color: #a86300;
+       letter-spacing: 2px;
+       font-size: 17px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-weight: bold;
+}
